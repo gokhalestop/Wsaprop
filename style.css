@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+*{
+    font-family: 'Marcellus', serif;}
+
+.bannerBgImage{
+height: 100vh;
+background: url("/images/wsa.jpg");
+background-size: cover;
+position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fdf6b2;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+
+}
+.card:hover{
+    background-color: #fdf6b2;
+    border:2px solid #9acd32;
+}
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size:40px ;
+
+}
+.img-fluid:hover{
+    border:2px solid yellowgreen;
+
+}
+.card-img-top{
+    height:50vh ;
+}
+.styled-image {
+    border: 5px solid #ddd; /* Adds a border */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds shadow */
+  }
+  .BIcon {
+    font-size: 2rem;
+    margin-right: 10px; /* Adds space between icon and title */
+  }
+  .service-title {
+    vertical-align: middle; /* Ensures proper alignment of the text with the icon */
+  }
+/* General Styles for Responsive Design */
+body {
+    padding-top: 56px; /* Ensure space for fixed navbar */
+  }
+  
+  .bannerBgImage {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .bannerText {
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card-img-top {
+    width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
+  .navbar {
+    padding: 1rem; /* Adjust padding for mobile */
+  }
+  
+  .navbar-brand, .nav-link {
+    font-size: 1.2rem; /* Ensure text is readable */
+  }
+  
+  /* Adjusting cards */
+  .card {
+    margin-bottom: 20px; /* Space between cards */
+  }
+  
+  /* Responsive Typography */
+  @media (max-width: 576px) {
+    .bannerTitle {
+      font-size: 2rem; /* Adjust font size for smaller devices */
+    }
+  
+    .bannerDesc {
+      font-size: 1.2rem; /* Smaller device font */
+    }
+  
+    .card-title {
+      font-size: 1.1rem; /* Smaller card title font */
+    }
+  
+    .card-text {
+      font-size: 0.9rem; /* Smaller card text */
+    }
+  
+    .nav-link {
+      font-size: 1rem; /* Smaller navigation link font */
+    }
+  }
+  
+  /* Adjust Contact Form for Responsiveness */
+  #contact .form-control {
+    margin-bottom: 1rem; /* Space between inputs */
+  }
+  
+  iframe {
+    width: 100%; /* Make the map responsive */
+    height: 450px; /* Maintain height */
+  }
+  
+  /* Footer Styles */
+  #footer {
+    margin-top: 2rem; /* Space above footer */
+  }
+  
+  .BIcon {
+    font-size: 1.5rem; /* Adjust icon size */
+    margin: 0 10px; /* Space between icons */
+  }
+  
+
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background: #1e3a8a;
+    color: white;
+    margin-bottom:-250px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+.hero {
+    position: relative;
+    background: url('cityscape.jpg') no-repeat center center/cover;
+    height: 300px;
+}
+
+.content {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.service {
+    flex: 1 1 calc(50% - 20px);
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.service h3 {
+    font-size: 1.2rem;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.yellow-section {
+    background: #fdf6b2;
+    padding: 20px;
+    margin-bottom: 20+px;
+    text-align: center;
+}
+
+.yellow-section h2 {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .service {
+        flex: 1 1 100%;
+    }
+}
+.contact-sections{
+
+  background-color: #fdf6b2;
+}
